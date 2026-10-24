@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.4",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.4\n\n本次更新：\n- 修正 AUT 留在背景時，再次開啟可能不會重新檢查更新的問題。\n- 開啟 AUT 時更容易看到新版本提示，方便直接下載更新。\n- 保留目前的邀請碼授權、懸浮操作及個人設定。\n\n安裝新版時請直接覆蓋更新，不要先解除安裝或清除資料。下載及安裝仍需要使用者確認。\n\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.4-release.apk",
+        "size": 66743549,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.4/AUT-v0.17.4-release.apk",
+        "digest": "sha256:dcac9407c2bada114b3859836fee216584a26a0d9997e0da0ace23dafc541251"
+      },
+      {
+        "name": "AUT-v0.17.4-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.4/AUT-v0.17.4-release.apk.sha256",
+        "digest": "sha256:8e6be54c97b21b1e7aad0754a39ea5215584ec8600d09b7011209ef04283847b"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.3",
     "draft": false,
     "prerelease": false,
