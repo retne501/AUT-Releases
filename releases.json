@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "tag_name": "aut-v0.17.1",
+    "draft": false,
+    "prerelease": false,
+    "body": "本次更新：\n- 改用新的官方下載來源，讓往後版本更新更穩定。\n- 保留既有 App 設定，下載後可直接安裝覆蓋舊版。\n- 新版下載後仍由 Android 系統詢問是否安裝。",
+    "assets": [
+      {
+        "name": "AUT-v0.17.1-release.apk",
+        "size": 66710781,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.1/AUT-v0.17.1-release.apk",
+        "digest": "sha256:3ff21e38feaee55ff463576e30007d25ef48206d7854176365ff919dd3b532c4"
+      },
+      {
+        "name": "AUT-v0.17.1-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.1/AUT-v0.17.1-release.apk.sha256",
+        "digest": "sha256:0be37a5849e9702d4224d796b09d4771f2a6a689149fe4bb55e2e4ef0546f81d"
+      }
+    ]
+  }
+]
