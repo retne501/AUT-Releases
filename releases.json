@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.3",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.3\n\n本次更新：\n- App 桌面圖示改用與 AUT 懸浮圖示相同的造型。\n- 保留原有 AUT 邀請碼啟用、使用設定及自動更新功能。\n- 已安裝的使用者可在 App 內檢查更新，下載後由 Android 確認覆蓋安裝；請勿先解除安裝或清除資料。\n\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.3-release.apk",
+        "size": 66743549,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.3/AUT-v0.17.3-release.apk",
+        "digest": "sha256:1b17756c631a5e919568148ed6a8cb5a3dc1a3a600164c6196b6ec38b24442a5"
+      },
+      {
+        "name": "AUT-v0.17.3-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.3/AUT-v0.17.3-release.apk.sha256",
+        "digest": "sha256:fdf26601b2b7203cdc6b9b4a11e85f83608fed890c1b8786c509dc3245082a3a"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.1",
     "draft": false,
     "prerelease": false,
