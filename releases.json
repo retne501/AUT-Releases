@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.5",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.5\n\n本次更新：\n- 加強水果清單辨識，改善畫面上有水果但無法選取的情況。\n- 新增「倒數」分頁，可設定時間、顯示倒數並在完成時點擊畫面中央。\n- 調整懸浮介面，讓派遣、餵果與倒數操作更容易切換。\n- 改善 AUT 啟用與日常使用的穩定性，保留既有設定。\n\n請直接覆蓋安裝新版，不要先解除安裝或清除資料；下載及安裝仍須經使用者確認。\n\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.5-release.apk",
+        "size": 66759933,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.5/AUT-v0.17.5-release.apk",
+        "digest": "sha256:2747a1c92b591d67daaf5217e3ab7b2f997ce4a0e84962b9b06db5b41f338f7d"
+      },
+      {
+        "name": "AUT-v0.17.5-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.5/AUT-v0.17.5-release.apk.sha256",
+        "digest": "sha256:849766f11855e6406edea9e6f40c02fe4cd707bb814cf5474f09d81d0805095e"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.4",
     "draft": false,
     "prerelease": false,
