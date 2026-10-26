@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.6",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.6\n\n本次更新：\n- 修正倒數功能：按下開始，AUT 收起懸浮介面並先點擊遊戲畫面中央，開始倒數；歸零時再點擊相同位置一次。\n- 改善餵果與派遣回收遇到明信片時的按鍵辨識與重試，減少因小字漏判而停止的情況。\n- 改善「精華快滿停止」對繁簡體提示及文字變化的判斷。\n- 保留既有派遣、餵果設定、授權與個人資料。\n\n安裝新版請直接覆蓋更新，不要先解除安裝或清除資料。倒數中央點擊以及明信片流程尚待實際遊戲畫面驗收，操作時請注意遊戲當前狀態。\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.6-release.apk",
+        "size": 66776317,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.6/AUT-v0.17.6-release.apk",
+        "digest": "sha256:c1b9b747e1ce84218ac352675b08f170c56dd351af3e8fe1d1da7012eef753ee"
+      },
+      {
+        "name": "AUT-v0.17.6-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.6/AUT-v0.17.6-release.apk.sha256",
+        "digest": "sha256:0fecbfc85c227709eac818bfda0351c42864c6b040b1c24ab1c8c4e328fc0dd7"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.5",
     "draft": false,
     "prerelease": false,
