@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.7",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.7\n\n本次更新：\n- 改善自動派遣搜尋到清單最底部時反覆上拉、畫面回彈的問題。\n- 調整每次派遣後返回探險畫面時的面板展開方式，避免超過遊戲原本的高度上限。\n- 改善底部畫面穩定判斷與水果重掃，減少最後一排水果漏辨識。\n- 保留原有自動派遣、餵果、派遣回收、倒數與個人設定。\n\n已在 Android 模擬器連續完成六顆水果派遣的回歸測試。其他手機及不同畫面配置仍可能存在差異。\n\n安裝新版請直接覆蓋更新，不要先解除安裝或清除資料。更新及安裝仍須經使用者確認。\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.7-release.apk",
+        "size": 66776317,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.7/AUT-v0.17.7-release.apk",
+        "digest": "sha256:0f2fba66cc86c3e540ffe20cbd8f825ce447fd6127d94ea2d0ddae0ecf6d87f1"
+      },
+      {
+        "name": "AUT-v0.17.7-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.7/AUT-v0.17.7-release.apk.sha256",
+        "digest": "sha256:96c7181def8b7f7320122bc340ddb3deeec754b6135cc340c4ec9cb566472073"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.6",
     "draft": false,
     "prerelease": false,
