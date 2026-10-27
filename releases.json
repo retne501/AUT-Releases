@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v0.17.8",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v0.17.8\n\n本次更新：\n- 改善部分手機在自動派遣返回探險清單後，因畫面穩定判斷太早逾時而提前停止的問題。\n- 將一般、反向及指定水果搜尋的畫面穩定等待上限延長至 12 秒；仍須連續 3 張穩定影格才允許選取水果。\n- 保留 v0.17.7 的清單底部防回彈、派遣返回面板限高與末排水果重掃機制。\n- 保留原有自動派遣、派遣回收、餵果、倒數及授權設定。\n\n已在 Galaxy S24 Ultra 以測試版驗證連續派遣成功，包含由探險清單最上方往下搜尋的情境。\n\n請直接覆蓋安裝正式版，不要解除安裝或清除資料。更新與安裝仍需使用者確認。\n",
+    "assets": [
+      {
+        "name": "AUT-v0.17.8-release.apk",
+        "size": 66776317,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.8/AUT-v0.17.8-release.apk",
+        "digest": "sha256:fcc6fcadc381ee53928cea8408f85fc8f272112b56cc55132e4a4d352a220c43"
+      },
+      {
+        "name": "AUT-v0.17.8-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.8/AUT-v0.17.8-release.apk.sha256",
+        "digest": "sha256:8c1086edb0b23ffe8865d1d2fff1e0f5b06a9d8be6a5518186c5b079c55a20c1"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v0.17.7",
     "draft": false,
     "prerelease": false,
