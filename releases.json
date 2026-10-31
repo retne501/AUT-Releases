@@ -1,21 +1,21 @@
 [
   {
-    "tag_name": "aut-v0.17.13",
+    "tag_name": "aut-v1.18.0",
     "draft": false,
     "prerelease": false,
-    "body": "## AUT v0.17.13（Code 31）｜新功能\n\n- **六格轉盤**：選擇六個方向的位置與倒數秒數。\n- **毫秒輸入**：可直接用數字鍵盤設定倒數時間。\n- **雙計時顯示**：同時顯示倒數計時與正向碼錶。\n- **倒數控制**：開始後自動收合面板，點擊懸浮球可取消倒數。\n",
+    "body": "# AUT v1.18.0（Code 33）｜新功能\n\n- **月型 A～F／自訂**：在轉盤位置右上角選擇月型，一鍵套用六個位置的倒數秒數。\n- **月型編輯**：長按月型即可修改六格秒數；支援數字鍵盤、獨立儲存與恢復該型預設值。\n- **月份參考**：月型下拉選單新增「參考」，可查看各型號對應月份與六格循環秒數。\n- **轉盤與微調**：六格與中央秒數框採 MR 1.7.1 文字、顏色、長按編輯及輸入體驗。\n- **雙計時膠囊**：倒數與碼錶整合顯示，可個別操作、查看進度與完成狀態。\n",
     "assets": [
       {
-        "name": "AUT-v0.17.13-release.apk",
-        "size": 66809085,
-        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.13/AUT-v0.17.13-release.apk",
-        "digest": "sha256:fe3732c981761568e3beb7b1183988f3f581af30d986313fd45d7b70799e2cfd"
+        "name": "AUT-v1.18.0-release.apk",
+        "size": 66841853,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.18.0/AUT-v1.18.0-release.apk",
+        "digest": "sha256:2be0960272c56f2b7d483b2268d0c4aaacbdf7762b843f9da4616da334d4c023"
       },
       {
-        "name": "AUT-v0.17.13-release.apk.sha256",
-        "size": 92,
-        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v0.17.13/AUT-v0.17.13-release.apk.sha256",
-        "digest": "sha256:3d1d4d15a2e0d292519d14a5557ec9c62097d53bcaf0a998aceaa43fe34fac04"
+        "name": "AUT-v1.18.0-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.18.0/AUT-v1.18.0-release.apk.sha256",
+        "digest": "sha256:f30e471125a4611300d9d36389cfd08f5f8137563a197b3941a4093b78bb7f16"
       }
     ]
   }
