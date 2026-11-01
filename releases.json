@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v1.18.1",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v1.18.1（Code 34）｜新功能\n\n- **派遣回收**：對齊 MR 1.7.1 的物品辨識與禮物排除、長按後續滑，以及沒有回收物品時自動結束。\n- **懸浮介面**：完整介面與極簡版切換、浮球展開／收合操作對齊 MR。\n- **主程式**：懸浮設定移到應用程式更新上方，移除主程式頁首多餘的圓形 Logo。\n",
+    "assets": [
+      {
+        "name": "AUT-v1.18.1-release.apk",
+        "size": 66825469,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.18.1/AUT-v1.18.1-release.apk",
+        "digest": "sha256:2009e6f3a48c0ac8288a0a75fa089d152bf7a4fde492524762c9da93be7df809"
+      },
+      {
+        "name": "AUT-v1.18.1-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.18.1/AUT-v1.18.1-release.apk.sha256",
+        "digest": "sha256:3087006ffbd5027f1e0d3ac6f730a22ad00763382e0a9608d4c664b41e0b4bd0"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v1.18.0",
     "draft": false,
     "prerelease": false,
