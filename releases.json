@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v1.19.0",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v1.19.0（Code 39）｜魔女六芒星與暗夜星空\n\n## 新功能\n\n- **魔女六芒星轉盤**：六個倒數秒數格沿六芒星頂點排列，保留原本六格位置與點擊／執行順序。\n- **W 魔女月型**：新增可重新生成的六格毫秒數，支援 6%／12%／18% 魔力強度、個別鎖定；三組對角互補、每組合計 9.000 秒。\n- **三位小數秒數**：六芒星秒數範圍 3.000～6.000 秒（0.001 秒精度），支援鍵盤編輯，A～F／自訂月型繼續保留。\n- **中央魔法標誌**：所有月型顯示固定的長橢圓形「~星想事成~」；W 型仍可點擊中央重新生成。\n- **電光小巫女視覺**：App 使用獨立的滿版電光巫女圖示，懸浮球保留易辨識的小圖示。\n- **暗夜星空介面**：主程式與完整／極簡懸浮面板、派遣／回收／餵果卡片採深藍紫背景、較明顯但不遮字的星雲、星點與星座連線。**只有轉盤六芒星區域**使用淺色多層曼陀羅幾何底紋。\n- **功能識別配色**：派遣紫、回收綠、餵果琥珀金。\n\n## 相容性與驗證\n\n- 保留既有派遣、回收、餵果流程、懸浮完整／極簡模式、停止、雙碼錶與無障礙服務操作方式；沒有清除既有 App 資料。\n- Android 套件 `com.autocool.aut`、正式原簽章不變，可從先前版本原位升級。\n- Windows Debug／Release 編譯成功；**178／178 單元測試通過**；Debug／Release Lint 各 **0 errors**（49 warnings）。\n- 已使用相同原簽章測試 S24 Ultra v1.19.0-qa4／Code 38：安裝、簽章、APK 雜湊及無障礙服務啟用驗證通過。\n- **注意**：S24 中的全部 UI 視覺與 Pikmin Bloom 真實派遣／回收／餵果操作尚未完成端到端實測；編譯與單元測試並不代表遊戲內手勢已全面驗收。\n",
+    "assets": [
+      {
+        "name": "AUT-v1.19.0-release.apk",
+        "size": 67976502,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.0/AUT-v1.19.0-release.apk",
+        "digest": "sha256:8efc61dae23adee2de7a2e7b55345a54c3db69e08224b02aa02655fbddee4ecb"
+      },
+      {
+        "name": "AUT-v1.19.0-release.apk.sha256",
+        "size": 91,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.0/AUT-v1.19.0-release.apk.sha256",
+        "digest": "sha256:042d142f26e01f5b4227e70fecd116234b94528ae8b94a14f7f33fb909010e69"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v1.18.1",
     "draft": false,
     "prerelease": false,
