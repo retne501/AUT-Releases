@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v1.19.3",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v1.19.3（Code 44）｜DeerWizard 懸浮球安全與 W 型操作精簡\n\n## 本版更新\n\n- **懸浮球螢幕邊界保護**：拖曳與重新開啟時修正位置，讓整個收合懸浮球及其執行快捷鍵維持在可用螢幕內；保存的舊座標、旋轉後的尺寸變更亦會重新檢查，不會任意清除原有偏好設定。\n- **主程式懸浮開關**：「開啟懸浮球」按鈕可再次點擊關閉，文字隨目前實際狀態顯示「開啟懸浮球／關閉懸浮球」。關閉沿用原有停止自動化與倒數的安全流程。\n- **品牌標題**：完整／極簡懸浮面板的 `AUTomation` 更名為 **DeerWizard**，不更換應用程式圖示、Android 套件名稱或授權機制。\n- **W 型六芒星倒數操作**：把「✦ 重新施法」移至六芒星中央橢圓，移除下方重複的「重新施法／鎖定／設定」按鈕；長按月型下拉選單內 W 型仍能編輯六格秒數、鎖定及解鎖。微光／閃電／風暴強度保留，A～F／自訂型中央的「~星想事成~」不變。\n\n## 相容性與測試\n\n- Android 套件 `com.autocool.aut`、正式簽章及本機資料相容，正式版 **v1.19.3 / Code 44**，高於 S24 已測試的 **v1.19.3-qa1 / Code 43**。\n- Windows 已完成 Debug 179 項單元測試與 Debug/Lint 驗證；Code43 QA 以正式憑證簽署，S24 原位安裝、APK 雜湊、啟用的無障礙服務與主程式啟動均驗證成功。\n- **注意**：原位安裝與單元測試不等同所有畫面互動已驗收。懸浮球拖曳四邊、含快捷鍵及橫直切換、主程式開關、W 型長按與重新施法，以及 Pikmin Bloom 實際派遣／回收／餵果完整端到端流程仍需實機操作確認。\n",
+    "assets": [
+      {
+        "name": "AUT-v1.19.3-release.apk",
+        "size": 67976502,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.3/AUT-v1.19.3-release.apk",
+        "digest": "sha256:c60470f4d4590093cc282762b3839251fd72bb7df4e4e288e082250972b04d52"
+      },
+      {
+        "name": "AUT-v1.19.3-release.apk.sha256",
+        "size": 91,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.3/AUT-v1.19.3-release.apk.sha256",
+        "digest": "sha256:a2a1b4ad158d7e5743ccb1a60408973da57f34ab39864a204a0feb5c5dadf73f"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v1.19.2",
     "draft": false,
     "prerelease": false,
