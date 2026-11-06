@@ -1,5 +1,25 @@
 [
   {
+    "tag_name": "aut-v1.19.6",
+    "draft": false,
+    "prerelease": false,
+    "body": "# AUT v1.19.6（Code 47）｜餵果首輪恢復 MR 1.7.3 啟動方式\n\n## 主要更新\n\n- **完整／極簡餵果面板改為「準備開始餵果」**：按下後儲存餵果設定並收起面板，不直接觸發自動餵食。\n- **懸浮控制列 ▶ 才正式啟動**：依 MR 1.7.3 的呼叫順序，等待 500ms 釋放啟動觸控、執行一次雙指內縮，成功後等待 180ms，直接送出首輪餵食螺旋手勢。\n- **移除 AUT 額外的首輪阻擋**：不再先做截圖預檢，也不要求首輪額外辨識返回鍵／哨子／餵果控制列；避免首輪因自行增加的檢查而停滯。\n- 保留既有餵食中明信片與花瓣滿監測、收花、換隊、暫停恢復以及單一精華／擴充精華選擇設定，並保留魔女星盤、派遣與回收功能。\n\n## 版本與相容性\n\n- 版本 **1.19.6**、Version Code **47**，Android 套件 `com.autocool.aut` 不變。\n- 延用 AUT 正式簽章，可由已安裝版本覆蓋升級，無需卸載或清除 App 資料。\n- 對照 S24 上 MR **1.7.3 / Code 328** 的啟動程式碼調整。AUT 為獨立實作，非 MR APK。\n\n## 驗證狀態\n\n- 191/191 項 JUnit 單元測試通過；Kotlin 編譯、Android Lint、正式版 APK 建置通過。\n- 正式簽章 SHA-256 憑證指紋 `23b06625175620630784bfbc80b6e758c1f20a94c59a52c3a5acd2a1a5a8fc08`，APK v3 驗證通過。\n- 已原位安裝 S24 Ultra，手機安裝版本確認為 v1.19.6（Code 47），MR 1.7.3 未更動。\n- **首輪餵果的實際遊戲操作仍待使用者驗收**；程式碼與安裝驗證不代表 Pikmin Bloom 餵食／收花端到端已通過。\n\n## 下載\n\n- `AUT-v1.19.6-release.apk`：正式簽署 APK。\n- `AUT-v1.19.6-release.apk.sha256`：供檔案完整性核對。\n- APK SHA-256：`d19296acf40d897ed29e863d0098dd76392b74ae09674f3aae4e14a62cd37331`\n",
+    "assets": [
+      {
+        "name": "AUT-v1.19.6-release.apk",
+        "size": 68042038,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.6/AUT-v1.19.6-release.apk",
+        "digest": "sha256:d19296acf40d897ed29e863d0098dd76392b74ae09674f3aae4e14a62cd37331"
+      },
+      {
+        "name": "AUT-v1.19.6-release.apk.sha256",
+        "size": 90,
+        "browser_download_url": "https://github.com/retne501/AUT-Releases/releases/download/aut-v1.19.6/AUT-v1.19.6-release.apk.sha256",
+        "digest": "sha256:62cc86221432ae7431c38ab83aa774d98e1503d98152d33e88d07e04da2c62ec"
+      }
+    ]
+  },
+  {
     "tag_name": "aut-v1.19.3",
     "draft": false,
     "prerelease": false,
